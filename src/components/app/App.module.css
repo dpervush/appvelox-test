@@ -1,0 +1,11 @@
+.app {
+  display: grid;
+  grid-template-areas:
+    "side header"
+    "side main";
+
+  grid-template-columns: 190px 1fr;
+  grid-template-rows: 55px auto;
+
+  min-height: 100vh;
+}

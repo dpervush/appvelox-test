@@ -1,0 +1,66 @@
+.panel {
+  grid-area: side;
+
+  background: #003b72;
+}
+.container {
+  height: 100%;
+  padding: 0 20px;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+
+  height: 55px;
+}
+.logo img {
+  height: 17px;
+}
+.nav {
+  flex: 1 1 auto;
+}
+.navList {
+  margin-bottom: 10px;
+}
+.navLink {
+  margin: 0 -20px 10px -20px;
+  padding: 15px 5px 15px 30px;
+
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+.navLink :last-child {
+  margin-bottom: 0;
+}
+.navLink.active {
+  padding-left: 27px;
+
+  color: var(--purple);
+  background: #fcfcfc;
+
+  border-left: 3px solid var(--purple);
+}
+.footer {
+}
+.help {
+  padding: 15px 10px 14px 32px;
+
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+.appVelox {
+  padding: 4px 0 16px;
+}
