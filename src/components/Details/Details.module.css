@@ -1,0 +1,26 @@
+.details {
+  padding: 15px 0;
+}
+.container {
+  max-width: 1118px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.title {
+  margin-bottom: 15px;
+  padding-left: 50px;
+
+  font-size: 16px;
+  line-height: 19px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 505px 573px;
+  gap: 40px;
+}
+.visits {
+  display: flex;
+  flex-direction: column;
+}
+.calendar {
+}
