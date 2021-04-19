@@ -1,0 +1,36 @@
+.navItem {
+  margin: 0 -20px 10px -20px;
+  padding: 14px 5px 14px 20px;
+
+  height: 46px;
+}
+.navItem:last-child {
+  margin-bottom: 0;
+}
+.navItem.active {
+  padding-left: 17px;
+
+  background: var(--bg-color);
+
+  border-left: 3px solid var(--purple);
+}
+.navItem.active path {
+  fill: var(--purple);
+}
+.navLink {
+  display: inline-flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+.text {
+  padding-left: 14px;
+
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.navItem.active .text {
+  display: inline-block;
+  color: var(--purple);
+}

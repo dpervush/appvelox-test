@@ -1,10 +1,20 @@
 import React from 'react';
 
-import appvelox from '../../assets/images/appvelox.svg';
 import Button from '../Button/Button';
+import SideLink from './SideLink/SideLink';
+import HeartIcon from './IconsSvg/HeartIcon';
+import DoctorsIcon from './IconsSvg/DoctorsIcon';
+import BookIcon from './IconsSvg/BookIcon';
+import MessageIcon from './IconsSvg/MessageIcon';
+import TestIcon from './IconsSvg/TestIcon';
+
+
+import appvelox from '../../assets/images/appvelox.svg';
+import logo from '../../assets/images/logo.svg';
+
+
 
 import styles from './SidePanel.module.css';
-import logo from '../../assets/images/logo.svg';
 
 const SidePanel = (props) => {
   return (
@@ -16,12 +26,11 @@ const SidePanel = (props) => {
           </div>
           <nav className={styles.nav}>
             <ul className={styles.navList}>
-              {/* TODO: add NavLink */}
-              <li className={`${styles.navLink} ${styles.active}`}>Профиль</li>
-              <li className={styles.navLink}>Врачи и клиники</li>
-              <li className={styles.navLink}>Сообщения</li>
-              <li className={styles.navLink}>Тестирование</li>
-              <li className={styles.navLink}>Полезно знать</li>
+              <SideLink icon={<HeartIcon />} text="Профиль" isActive={true} />
+              <SideLink icon={<DoctorsIcon />} text="Врачи и клиники" />
+              <SideLink icon={<MessageIcon />} text="Сообщения" />
+              <SideLink icon={<TestIcon />} text="Тестирование" />
+              <SideLink icon={<BookIcon />} text="Полезно знать" />
             </ul>
             <Button text="Подать заявку" />
           </nav>

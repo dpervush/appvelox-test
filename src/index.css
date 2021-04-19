@@ -1,8 +1,10 @@
 :root {
   --font-family: "Rubik", sans-serif;
+  --bg-color: #fcfcfc;
   --cyan: #50caff;
   --blue: #003b72;
   --purple: #7761ff;
+  --light-purple: #ebe7ff;
 }
 
 * {

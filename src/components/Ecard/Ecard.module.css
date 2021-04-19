@@ -1,0 +1,36 @@
+.ecard {
+  padding-top: 15px;
+}
+.container {
+  max-width: 1136px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.title {
+  margin-left: 20px;
+  margin-bottom: 15px;
+
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.cardsItems {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list {
+  padding-left: 15px;
+  list-style-type: initial;
+}
+.item {
+  margin-bottom: 7px;
+
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--cyan);
+
+  list-style-type: initial;
+}
+.item span {
+  color: #000000;
+}

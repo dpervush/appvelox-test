@@ -1,0 +1,37 @@
+.visits {
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+.container {
+  max-width: 1136px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.title {
+  margin-left: 20px;
+  margin-bottom: 15px;
+
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.visitsList {
+  display: flex;
+  align-items: center;
+}
+.more {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+.text {
+}
+.more a {
+  text-decoration-line: underline;
+  color: var(--cyan);
+}

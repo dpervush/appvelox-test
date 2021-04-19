@@ -29,30 +29,10 @@
 .navList {
   margin-bottom: 10px;
 }
-.navLink {
-  margin: 0 -20px 10px -20px;
-  padding: 15px 5px 15px 30px;
-
-  font-size: 14px;
-  line-height: 17px;
-  color: #ffffff;
-
-  cursor: pointer;
-}
-.navLink :last-child {
-  margin-bottom: 0;
-}
-.navLink.active {
-  padding-left: 27px;
-
-  color: var(--purple);
-  background: #fcfcfc;
-
-  border-left: 3px solid var(--purple);
-}
 .footer {
 }
 .help {
+  position: relative;
   padding: 15px 10px 14px 32px;
 
   font-size: 14px;
@@ -60,6 +40,21 @@
   color: #ffffff;
 
   cursor: pointer;
+}
+.help::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 18px;
+  height: 18px;
+
+  background-image: url(../../assets/images/help.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  transform: translateY(-50%);
+  content: "";
 }
 .appVelox {
   padding: 4px 0 16px;
