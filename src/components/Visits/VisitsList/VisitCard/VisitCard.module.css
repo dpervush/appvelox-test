@@ -10,6 +10,9 @@
   box-shadow: 0px 0px 5px #ebe7ff;
   border-radius: 5px;
 }
+.visitCard:last-child {
+  margin-right: 0;
+}
 .date {
   margin-bottom: 5px;
 

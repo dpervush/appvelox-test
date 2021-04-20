@@ -14,20 +14,20 @@ const Header = (props) => {
         <div className={styles.inner}>
           <h2 className={styles.title}>Мой профиль</h2>
           <div className={styles.actions}>
-            <div className={`${styles.icon} ${styles.searchIcon}`}>
+            <button className={`${styles.icon} ${styles.searchIcon}`}>
               <Search />
-            </div>
-            <div className={`${styles.icon} ${styles.bellIcon}`}>
+            </button>
+            <button className={`${styles.icon} ${styles.bellIcon}`}>
               <Bell />
-            </div>
-            <div className={`${styles.icon} ${styles.eyeIcon}`}>
+            </button>
+            <button className={`${styles.icon} ${styles.eyeIcon}`}>
               <Eye />
-            </div>
+            </button>
           </div>
-
-          {/* TODO: padding with boders */}
           <div className={styles.user}>
-            <img className={styles.avatar} src={avatar} alt="/" />
+            <div className={styles.bg}>
+              <img className={styles.avatar} src={avatar} alt="/" />
+            </div>
           </div>
         </div>
       </div>

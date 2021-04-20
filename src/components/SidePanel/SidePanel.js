@@ -8,13 +8,11 @@ import BookIcon from './IconsSvg/BookIcon';
 import MessageIcon from './IconsSvg/MessageIcon';
 import TestIcon from './IconsSvg/TestIcon';
 
-
 import appvelox from '../../assets/images/appvelox.svg';
 import logo from '../../assets/images/logo.svg';
 
-
-
 import styles from './SidePanel.module.css';
+import { Link } from 'react-router-dom';
 
 const SidePanel = (props) => {
   return (
@@ -22,7 +20,9 @@ const SidePanel = (props) => {
       <div className={styles.container}>
         <div className={styles.inner}>
           <div className={styles.logo}>
-            <img src={logo} alt="logo" />
+            <Link to="/">
+              <img src={logo} alt="logo" />
+            </Link>
           </div>
           <nav className={styles.nav}>
             <ul className={styles.navList}>

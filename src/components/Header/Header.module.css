@@ -31,6 +31,7 @@
 .icon {
   margin-left: 20px;
 
+  background-color: transparent;
   cursor: pointer;
 }
 .user {
@@ -48,11 +49,15 @@
   transform: translateY(-50%);
   cursor: pointer;
 }
-.avatar {
-  display: inline-block;
+.bg {
+  padding: 1px;
 
   border: 1px solid #ffffff;
   border-radius: 50%;
+}
+.avatar {
+  display: inline-block;
 
+  border-radius: 50%;
   cursor: pointer;
 }
