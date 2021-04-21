@@ -111,7 +111,7 @@
   max-width: 100%;
 
   background: none;
-  background: #ffffff;
+  background-color: #ffffff;
 }
 .react-calendar__month-view__days__day--neighboringMonth {
   color: rgba(0, 0, 0, 0.25);
@@ -122,6 +122,10 @@
 .react-calendar__tile--border.react-calendar__tile.react-calendar__tile--active {
   border: 1px solid var(--cyan);
   background-color: #ffffff;
+}
+.react-calendar__tile:active,
+.react-calendar__tile:focus {
+  color: #000000;
 }
 .react-calendar__month-view__days__day div {
   position: absolute;
