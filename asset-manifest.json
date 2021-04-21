@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/appvelox-test/static/css/main.4aae9764.chunk.css",
-    "main.js": "/appvelox-test/static/js/main.8780506b.chunk.js",
-    "main.js.map": "/appvelox-test/static/js/main.8780506b.chunk.js.map",
-    "runtime-main.js": "/appvelox-test/static/js/runtime-main.2ff34c53.js",
-    "runtime-main.js.map": "/appvelox-test/static/js/runtime-main.2ff34c53.js.map",
-    "static/js/2.df7b635c.chunk.js": "/appvelox-test/static/js/2.df7b635c.chunk.js",
-    "static/js/2.df7b635c.chunk.js.map": "/appvelox-test/static/js/2.df7b635c.chunk.js.map",
-    "index.html": "/appvelox-test/index.html",
-    "static/css/main.4aae9764.chunk.css.map": "/appvelox-test/static/css/main.4aae9764.chunk.css.map",
-    "static/js/2.df7b635c.chunk.js.LICENSE.txt": "/appvelox-test/static/js/2.df7b635c.chunk.js.LICENSE.txt",
-    "static/media/appvelox.4620fb3d.svg": "/appvelox-test/static/media/appvelox.4620fb3d.svg",
-    "static/media/backArrow.12ee7e8b.svg": "/appvelox-test/static/media/backArrow.12ee7e8b.svg",
-    "static/media/Header.module.css": "/appvelox-test/static/media/expand.ee7b21e8.svg",
-    "static/media/SidePanel.module.css": "/appvelox-test/static/media/help.08d1d542.svg",
-    "static/media/logo.6bb4f601.svg": "/appvelox-test/static/media/logo.6bb4f601.svg"
+    "main.css": "/appvelox-teststatic/css/main.63f1c143.chunk.css",
+    "main.js": "/appvelox-teststatic/js/main.8780506b.chunk.js",
+    "main.js.map": "/appvelox-teststatic/js/main.8780506b.chunk.js.map",
+    "runtime-main.js": "/appvelox-teststatic/js/runtime-main.ff544ca3.js",
+    "runtime-main.js.map": "/appvelox-teststatic/js/runtime-main.ff544ca3.js.map",
+    "static/js/2.df7b635c.chunk.js": "/appvelox-teststatic/js/2.df7b635c.chunk.js",
+    "static/js/2.df7b635c.chunk.js.map": "/appvelox-teststatic/js/2.df7b635c.chunk.js.map",
+    "index.html": "/appvelox-testindex.html",
+    "static/css/main.63f1c143.chunk.css.map": "/appvelox-teststatic/css/main.63f1c143.chunk.css.map",
+    "static/js/2.df7b635c.chunk.js.LICENSE.txt": "/appvelox-teststatic/js/2.df7b635c.chunk.js.LICENSE.txt",
+    "static/media/appvelox.4620fb3d.svg": "/appvelox-teststatic/media/appvelox.4620fb3d.svg",
+    "static/media/backArrow.12ee7e8b.svg": "/appvelox-teststatic/media/backArrow.12ee7e8b.svg",
+    "static/media/Header.module.css": "/appvelox-teststatic/media/expand.ee7b21e8.svg",
+    "static/media/SidePanel.module.css": "/appvelox-teststatic/media/help.08d1d542.svg",
+    "static/media/logo.6bb4f601.svg": "/appvelox-teststatic/media/logo.6bb4f601.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ff34c53.js",
+    "static/js/runtime-main.ff544ca3.js",
     "static/js/2.df7b635c.chunk.js",
-    "static/css/main.4aae9764.chunk.css",
+    "static/css/main.63f1c143.chunk.css",
     "static/js/main.8780506b.chunk.js"
   ]
 }
